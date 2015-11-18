@@ -1,0 +1,13 @@
+template: Hello, %s!
+
+defaultBirthYear: 2000
+
+defaultBirthMonth: 1
+
+defaultBirthDate: 1
+
+# the key needs to match the suffix of the renderer
+viewRendererConfiguration:
+    .ftl:
+        strict_syntax: yes
+        whitespace_stripping: yes
