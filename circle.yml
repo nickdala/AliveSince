@@ -1,6 +1,15 @@
 machine:
   java:
     version: oraclejdk8
+  services:
+    - docker
+
+dependencies:
+  override:
+    - mvn dependency:resolve
+    - mvn integration-test
+    - docker info
+    - docker build -t nickdala/alivesince .
 
 deployment:
   dockerhub:
