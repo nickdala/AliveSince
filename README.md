@@ -16,4 +16,4 @@ Go to http://localhost:8080
 You can also install Alive Since as a container. Please see https://hub.docker.com/r/nickdala/alivesince/ for more information
 
 # Demo
-Please visit [Alive Since]http://alive-since-1.nickdala.cont.tutum.io) to try out the demo.
+Please visit [Alive Since](http://alive-since-1.nickdala.cont.tutum.io) to try out the demo.
