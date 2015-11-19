@@ -1,3 +1,5 @@
+[![Circle CI](https://circleci.com/gh/nickdala/AliveSince/tree/master.svg?style=svg)](https://circleci.com/gh/nickdala/AliveSince/tree/master)
+
 # Alive Since
 Alive since is a site where you can see how long you have been alive for.  The application is written in Java using the
 Dropwizard framework and AngularJS.
