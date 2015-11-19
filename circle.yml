@@ -1,9 +1,19 @@
 machine:
   java:
     version: oraclejdk8
+  services:
+    - docker
+
+dependencies:
+  override:
+    - mvn dependency:resolve
+    - mvn integration-test
+    - docker info
+    - docker build -t nickdala/alivesince .
 
 deployment:
   dockerhub:
     branch: master
     commands:
-      - $DOCKER_HUB_TRIGGER
+      - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+      - docker push nickdala/alivesince
