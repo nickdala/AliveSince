@@ -21,4 +21,4 @@ docker run -d -p 8080:8080 nickdala/alivesince
 ```
 
 # Demo
-Please visit [Alive Since](http://alive-since-1.nickdala.cont.tutum.io) to try out the demo.
+Please visit [Alive Since](http://alive-since.nickdala.svc.tutum.io) to try out the demo.
