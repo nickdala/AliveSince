@@ -32,7 +32,15 @@
 
         <div><p><strong>Years alive:</stong> {{aliveSince.yearsAlive}}</p></div>
         <div><p><strong>Months alive:</stong> {{aliveSince.monthsAlive}}</p></div>
+        <div><p><strong>Weeks alive:</stong> {{aliveSince.weeksAlive}}</p></div>
         <div><p><strong>Days alive:</stong> {{aliveSince.daysAlive}}</p></div>
+
+        <hr />
+
+        <div>
+        <p><strong>Developed by Nick and Steven Dalalelis</p></div>
+        <p><strong>Source code on <a href="https://github.com/nickdala/AliveSince">github</a></p></div>
+        </div>
     </div>
 </div>
 </body>

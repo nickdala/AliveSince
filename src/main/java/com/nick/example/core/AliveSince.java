@@ -3,6 +3,7 @@ package com.nick.example.core;
 import org.joda.time.LocalDate;
 import org.joda.time.Days;
 import org.joda.time.Months;
+import org.joda.time.Weeks;
 import org.joda.time.Years;
 
 public class AliveSince {
@@ -11,6 +12,7 @@ public class AliveSince {
     private int birthDay;
     private int yearsAlive;
     private int monthsAlive;
+    private int weeksAlive;
     private int daysAlive;
 
     public AliveSince(int birthYear, int birthMonth, int birthDay) {
@@ -24,6 +26,7 @@ public class AliveSince {
         yearsAlive = Years.yearsBetween(birthDateTime, now).getYears();
         monthsAlive = Months.monthsBetween(birthDateTime, now).getMonths();
         daysAlive = Days.daysBetween(birthDateTime, now).getDays();
+        weeksAlive = Weeks.weeksBetween(birthDateTime, now).getWeeks();
     }
 
     public int getBirthYear() {
@@ -44,6 +47,10 @@ public class AliveSince {
 
     public int getMonthsAlive() {
         return monthsAlive;
+    }
+
+    public int getWeeksAlive() {
+        return weeksAlive;
     }
 
     public int getDaysAlive() {
