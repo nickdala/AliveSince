@@ -13,6 +13,7 @@
     <script src="/assets/js/services/AliveSinceData.js"></script>
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/assets/css/app.css">
 
 </head>
