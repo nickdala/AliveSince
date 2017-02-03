@@ -25,4 +25,4 @@ docker run -d -p 8080:8080 nickdala/alivesince
 
 # Demo
 
-Please visit [Alive Since](http://alivesince-39430019-1.62bc1619.cont.dockerapp.io/) to try out the demo.
+Please visit [Alive Since](http://alivesince-39430019.7dfe27f5.svc.dockerapp.io/) to try out the demo.
