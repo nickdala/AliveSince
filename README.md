@@ -25,4 +25,4 @@ docker run -d -p 8080:8080 nickdala/alivesince
 
 # Demo
 
-Please visit [Alive Since](https://alivesince.azurewebsites.net) to try out the demo.
+Please visit [Alive Since](http://alivesince.eastus.azurecontainer.io:8080) to try out the demo.
