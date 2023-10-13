@@ -25,4 +25,4 @@ docker run -d -p 8080:8080 nickdala/alivesince
 
 # Demo
 
-Please visit [Alive Since](https://alivesince.yellowfield-a410b08f.eastus2.azurecontainerapps.io/)https://alivesince.yellowfield-a410b08f.eastus2.azurecontainerapps.io/) to try out the demo.
+Please visit [Alive Since](https://alivesince.yellowfield-a410b08f.eastus2.azurecontainerapps.io/) to try out the demo.
